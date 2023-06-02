@@ -30,9 +30,9 @@ body {
 }
 
 .principal__azul {
-    flex: 50%;
-    display: flex;
-    align-items: flex-end;
+    position: absolute;
+    bottom: 0px;
+    height: 227px;
 }
 
 .principal__ciano {
