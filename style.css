@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;400;600&family=MedievalSharp&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("imgs/fundo.png");
+    background-size: cover;
+    background-color: #D4C092;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.principal {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.principal__vermelho {
+    flex: 50%; 
+}
+
+.principal__roxo {
+    flex: 50%;
+    text-align: right;
+    position: relative;
+}
+
+.principal__azul {
+    flex: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.principal__ciano {
+    flex: 50%;
+    text-align: right;
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.foto_personagem {
+    width: 348px;
+    height: 227px;
+}
+
+.format {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 13px;
+    line-height: 24.5px;
+}
+
+.principal__vermelho__texto {
+    position: absolute;
+    left: 19px;
+    top: 18px;
+}
+
+.principal__azul__texto {
+    position: absolute;
+    left: 19px;
+    bottom: 37px
+}
+
+.principal__roxo__texto {
+    position: absolute;
+    text-align: left;
+    right: 245px;
+    top: 18px
+}
+
+.principal__ciano__texto {
+    position: absolute;
+    text-align: left;
+    right: 245px;
+    bottom: 37px
+}
+
+.atributos {
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+    align-items: stretch;
+    position: absolute;
+    left: 110px;
+    top: 18px
+}
+
+.blocos {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.espada-escudo {
+    display: flex;
+    gap: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.blocos__img {
+    width: 194px;
+    height: 246px;
+}
+
+.personagem-art {
+    width: 162px;
+    height: 228px;
+}
+
+.move-vermelho {
+    position: absolute;
+    left: 186px;
+    height: 227px;
+}
+
+.move-roxo {
+    position: absolute;
+    right: 0px;
+    height: 227px;
+}
+
+.move-azul {
+    position: absolute;
+    bottom: 0px;
+    left: 186px;
+    height: 227px;
+}
+
+.move-ciano {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 227px;
+}
